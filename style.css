@@ -13,8 +13,21 @@ body {
     color: rgb(63, 46, 87);
     font-size: 36px;
     font-family: verdana;
+    text-align: center;
   }
 
+table, thead, th, td {
+  border: 1px solid rgb(87, 20, 245);
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+th {background-color: rgb(225, 215, 249);}
+
+tr:hover {background-color: #f5f5f5;}
   
 nav {
     background-color: rgb(63, 46, 87);
