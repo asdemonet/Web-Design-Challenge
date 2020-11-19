@@ -16,6 +16,13 @@ body {
     text-align: center;
   }
 
+  h2{
+    color: rgb(63, 46, 87);
+    font-size: 24px;
+    font-family: verdana;
+    text-align: center;
+  }
+
 table, thead, th, td {
   border: 1px solid rgb(87, 20, 245);
 }
@@ -76,19 +83,7 @@ nav {
       visibility: visible;
     }
   }
-  
-  .col-1 {width: 8%;}
-  .col-2 {width: 17%;}
-  .col-3 {width: 24%;}
-  .col-4 {width: 32%;}
-  .col-5 {width: 40%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 60%;}
-  .col-8 {width: 65%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 82%;}
-  .col-11 {width: 92%;}
-  .col-12 {width: 100%;}
+
   
   @media only screen and (max-width: 768px) {
 
