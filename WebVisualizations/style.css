@@ -3,51 +3,49 @@ body {
   }
   
   p {
-    background: rgb(237, 236, 247);
+    background-color: rgb(237, 236, 247);
+    color: rgb(72, 6, 138);
+    font-size: 18px;
+    font-family: verdana;
   }
-  
-  .box{
-    padding: 10px;
-    background: rgb(186, 178, 178);
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
+
+  h1 {
+    color: rgb(63, 46, 87);
+    font-size: 36px;
+    font-family: verdana;
   }
+
   
+nav {
+    background-color: rgb(63, 46, 87);
+}
+
   .navbar {
     margin-right: 0px;
     margin-left: 0px;
-    padding: 25px;
-    background: rgb(63, 46, 87);
+    padding: 20px;
+ 
   }
   
   .navbar li {
     display: d-block;
-    padding: 10px;
+    padding: 5px;
     margin-right: 0px;
     margin-left: 0px;
     cursor: pointer;
-  }
-  h1 {
-    color: rgb(21, 59, 92);
-    font-size: 36px;
-  }
- 
-  p{
-    color: rgb(55, 124, 185);
-    font-size: 18px;
-  }
+    
+  }  
   
-  
-  .latitude {
+  .navbar-brand {
     color: white;
     font-family: verdana;
-    font-size: 45px;
-    background-color: rgb(25, 103, 155);
-    border: 1px solid rgb(22, 99, 150);
-      padding: 15px;
+    font-size: 25px;
+    
+  }
+
+  .nav-item {
+    font-family: verdana;
+    font-size: 20px;
   }
 
   @media (max-width: 500px) {
